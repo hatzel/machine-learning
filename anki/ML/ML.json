@@ -61,11 +61,11 @@
     "note_models": [
         {
             "__type__": "NoteModel", 
-            "crowdanki_uuid": "09951314-5ca9-11e7-8d85-8c705ab266f4", 
+            "crowdanki_uuid": "1abbd8c0-5f61-11e7-9b25-60571891fa41", 
             "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n", 
             "flds": [
                 {
-                    "font": "Liberation Sans", 
+                    "font": "Arial", 
                     "media": [], 
                     "name": "Front", 
                     "ord": 0, 
@@ -96,6 +96,58 @@
                 ]
             ], 
             "sortf": 0, 
+            "tags": [], 
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}", 
+                    "bafmt": "", 
+                    "bqfmt": "", 
+                    "did": null, 
+                    "name": "Card 1", 
+                    "ord": 0, 
+                    "qfmt": "{{Front}}"
+                }
+            ], 
+            "type": 0, 
+            "vers": []
+        }, 
+        {
+            "__type__": "NoteModel", 
+            "crowdanki_uuid": "09951314-5ca9-11e7-8d85-8c705ab266f4", 
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n", 
+            "flds": [
+                {
+                    "font": "Liberation Sans", 
+                    "media": [], 
+                    "name": "Front", 
+                    "ord": 0, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Back", 
+                    "ord": 1, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }
+            ], 
+            "latexPost": "\\end{document}", 
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n", 
+            "name": "Basic-0ff1b", 
+            "req": [
+                [
+                    0, 
+                    "all", 
+                    [
+                        0
+                    ]
+                ]
+            ], 
+            "sortf": 0, 
             "tags": [
                 "concept"
             ], 
@@ -115,6 +167,54 @@
         }
     ], 
     "notes": [
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Hold-out validation", 
+                "Split data into two parts (say 70/30)<div>use one as training and the other as a test set</div>"
+            ], 
+            "flags": 0, 
+            "guid": "gzxVU#$Wq<", 
+            "note_model_uuid": "1abbd8c0-5f61-11e7-9b25-60571891fa41", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "K-fold Crossvalidation", 
+                "Split data into k parts&nbsp;<div>for each k train all other chunks, test with the remaining one<br /></div>"
+            ], 
+            "flags": 0, 
+            "guid": "cRBwI5zjHV", 
+            "note_model_uuid": "1abbd8c0-5f61-11e7-9b25-60571891fa41", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Leave one out cross validation", 
+                "K-fold where k=n meaning each chunk is one sample<br />"
+            ], 
+            "flags": 0, 
+            "guid": "Pr!L>8GSv(", 
+            "note_model_uuid": "1abbd8c0-5f61-11e7-9b25-60571891fa41", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Idea of crossvalidation", 
+                "Evaluate models by testing with independent data, find the best parameters"
+            ], 
+            "flags": 0, 
+            "guid": "n)0f~,y@.0", 
+            "note_model_uuid": "1abbd8c0-5f61-11e7-9b25-60571891fa41", 
+            "tags": []
+        }, 
         {
             "__type__": "Note", 
             "data": "", 
