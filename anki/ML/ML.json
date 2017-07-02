@@ -53,7 +53,10 @@
     "dyn": 0, 
     "extendNew": 10, 
     "extendRev": 50, 
-    "media_files": [], 
+    "media_files": [
+        "latex-3c4fa3e7480b19dcebbd051b37a5a9de4e0e4af5.png", 
+        "latex-5449911bcd2fc55e691c7445058833b8ac40e1c9.png"
+    ], 
     "name": "ML", 
     "note_models": [
         {
@@ -135,6 +138,244 @@
             ], 
             "flags": 0, 
             "guid": "e.n<yGvCG{", 
+            "note_model_uuid": "09951314-5ca9-11e7-8d85-8c705ab266f4", 
+            "tags": [
+                "concept"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Two types of supervised learning", 
+                "- regression (continuous output)<div>- classification (discrete output)</div>"
+            ], 
+            "flags": 0, 
+            "guid": "qZ!4:|O7B[", 
+            "note_model_uuid": "09951314-5ca9-11e7-8d85-8c705ab266f4", 
+            "tags": [
+                "concept"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Unsupervised learning", 
+                "- unlabeled training data (unknown output)<br />"
+            ], 
+            "flags": 0, 
+            "guid": "AB$o*=Gl[m", 
+            "note_model_uuid": "09951314-5ca9-11e7-8d85-8c705ab266f4", 
+            "tags": [
+                "concept"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Reinforcement learning", 
+                "- state machine<div>- maximize reward at the end</div>"
+            ], 
+            "flags": 0, 
+            "guid": "q=hYb_@$6M", 
+            "note_model_uuid": "09951314-5ca9-11e7-8d85-8c705ab266f4", 
+            "tags": [
+                "concept"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Difference between training &amp; test set", 
+                "- training set is used to compute model<div>- test set is used to evaluate model</div>"
+            ], 
+            "flags": 0, 
+            "guid": "bC]KHp5%Pm", 
+            "note_model_uuid": "09951314-5ca9-11e7-8d85-8c705ab266f4", 
+            "tags": [
+                "concept"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Learning rate&nbsp;[latex]\\alpha[/latex]", 
+                "- step size when updating parameters<div>- too small: may get stuck in local optima, slow convergence</div><div>- too big: may skip over optima</div>"
+            ], 
+            "flags": 0, 
+            "guid": "e%CPQr/CWh", 
+            "note_model_uuid": "09951314-5ca9-11e7-8d85-8c705ab266f4", 
+            "tags": [
+                "concept"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Naive Bayes Assumption", 
+                "- assumption of independence of features given a label to simplify algorithm"
+            ], 
+            "flags": 0, 
+            "guid": "t=@9CU8;|_", 
+            "note_model_uuid": "09951314-5ca9-11e7-8d85-8c705ab266f4", 
+            "tags": [
+                "concept"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Feature Vector", 
+                "- input data for model<br /><div>- used to calculate output</div>"
+            ], 
+            "flags": 0, 
+            "guid": "Km*SOB|OrN", 
+            "note_model_uuid": "09951314-5ca9-11e7-8d85-8c705ab266f4", 
+            "tags": [
+                "concept"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Feature Selection", 
+                "- algorithm to select relevant subset of features available"
+            ], 
+            "flags": 0, 
+            "guid": "FldI{(Iwu0", 
+            "note_model_uuid": "09951314-5ca9-11e7-8d85-8c705ab266f4", 
+            "tags": [
+                "concept"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "VC Dimension", 
+                "- Size of the largest set that can be shattered by a hypothesis class H<div>- Used as complexity measure for models</div><div>- e.g. linear classification on 2d-feature vector: VC Dimension of 3</div>"
+            ], 
+            "flags": 0, 
+            "guid": "puC9wk6zjH", 
+            "note_model_uuid": "09951314-5ca9-11e7-8d85-8c705ab266f4", 
+            "tags": [
+                "concept"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Generalization Error", 
+                "- Expected error for examples not included in training data<div>- factors: bias &amp; variance</div>"
+            ], 
+            "flags": 0, 
+            "guid": "p8osiW^T;P", 
+            "note_model_uuid": "09951314-5ca9-11e7-8d85-8c705ab266f4", 
+            "tags": [
+                "concept"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Bias", 
+                "- Generalization Error for a model trained on very many or infinite examples<div>- too simple models<br /><div>- underfitting</div></div>"
+            ], 
+            "flags": 0, 
+            "guid": "x$/OUuIaBP", 
+            "note_model_uuid": "09951314-5ca9-11e7-8d85-8c705ab266f4", 
+            "tags": [
+                "concept"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Variance", 
+                "- Generalization Error resulting of inaccurate / small training set and/or too complex models<br /><div>- overfitting</div>"
+            ], 
+            "flags": 0, 
+            "guid": "x~[^{j$}~,", 
+            "note_model_uuid": "09951314-5ca9-11e7-8d85-8c705ab266f4", 
+            "tags": [
+                "concept"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Support vectors", 
+                "- Examples with the smallest margin (closest to the boundary)"
+            ], 
+            "flags": 0, 
+            "guid": "gik||J=#VZ", 
+            "note_model_uuid": "09951314-5ca9-11e7-8d85-8c705ab266f4", 
+            "tags": [
+                "concept"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Functional margin", 
+                "[$$]y^i(w^Tx^i+b)[/$$]<div>Describes confidence of prediction<br /></div>"
+            ], 
+            "flags": 0, 
+            "guid": "K+kW`;/hWQ", 
+            "note_model_uuid": "09951314-5ca9-11e7-8d85-8c705ab266f4", 
+            "tags": [
+                "concept"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Geometric Margin", 
+                "[$$]y^i((\\frac{w}{||w||})^Tx^i+(\\frac{b}{||w||}))[/$$]<div>Shortest possible geometric distance between point x and decision boundary&nbsp;</div>"
+            ], 
+            "flags": 0, 
+            "guid": "dhoX&m~QhZ", 
+            "note_model_uuid": "09951314-5ca9-11e7-8d85-8c705ab266f4", 
+            "tags": [
+                "concept"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Kernel trick", 
+                "- making examples separable by mapping to larger dimensions<div>- combining mappings of two examples makes computing mappings cheaper</div>"
+            ], 
+            "flags": 0, 
+            "guid": "PsZTN&Gc8#", 
+            "note_model_uuid": "09951314-5ca9-11e7-8d85-8c705ab266f4", 
+            "tags": [
+                "concept"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Markov property", 
+                "- property of a stochastic process&nbsp;<div>- future state depends only on present state</div><div>- present state summarizes past states</div>"
+            ], 
+            "flags": 0, 
+            "guid": "zn/w7^d<sN", 
             "note_model_uuid": "09951314-5ca9-11e7-8d85-8c705ab266f4", 
             "tags": [
                 "concept"
