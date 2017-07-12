@@ -54,8 +54,31 @@
     "extendNew": 10, 
     "extendRev": 50, 
     "media_files": [
+        "latex-ce7a13236c35ee1faee2e9c31c427f105a151bd1.png", 
+        "latex-6145a4f8dc1c89cc7af813831fcb1e71eb331cdb.png", 
+        "latex-67bd113c5b0aa70aed675a3654209c2fb124160a.png", 
+        "latex-52e8ed7a3ba22130ad3984eb2cd413406475a689.png", 
+        "latex-ba8abddc486aa9814b534c192cefe001796e0660.png", 
+        "latex-5449911bcd2fc55e691c7445058833b8ac40e1c9.png", 
+        "latex-1f073a10f7885cb16cd3e6741a9ac35e6598999c.png", 
+        "latex-092e364e1d9d19ad5fffb0b46ef4cc7f2da02c1c.png", 
+        "latex-d5b47333faf1029f1ab66704b16989e29d190643.png", 
+        "latex-f37bba504894945c07a32f5496d74299a37aa51c.png", 
+        "latex-c8f77e3035db5fe9a4975967750ac1a6454bda8c.png", 
+        "latex-f1c19ca16d96c084cbb951e331ae8a2f287030f8.png", 
+        "latex-f2ca003a7da0de4994b4733e203b74ff52d42553.png", 
+        "latex-c7d457e388298246adb06c587bccd419ea67f7e8.png", 
+        "latex-9fbf70257cf041a08a07676aab5556e163115536.png", 
         "latex-3c4fa3e7480b19dcebbd051b37a5a9de4e0e4af5.png", 
-        "latex-5449911bcd2fc55e691c7445058833b8ac40e1c9.png"
+        "latex-4b4cade9ca8a2c8311fafcf040bc5b15ca507f52.png", 
+        "latex-e0d2bf360290fd61d1c1557e763f2622363b3d35.png", 
+        "2017-07-12-163414_430x324_scrot.png", 
+        "latex-10f32377ac67d94f764f12a15ea987e88c85d3e1.png", 
+        "latex-f5f8c57c136c66a683714048b0820ec466bfc35e.png", 
+        "latex-2c175f60eecef1de7560c3bdea495d69f26f719d.png", 
+        "latex-0ca9e16fa0841d19943387d62102ce20e77bf3bc.png", 
+        "latex-2554b6496c3b678897e9b060ef00aa9f0a7d7ece.png", 
+        "latex-7548319dd93c27598143e27cd09522e0c727ef4f.png"
     ], 
     "name": "ML", 
     "note_models": [
@@ -85,7 +108,7 @@
             ], 
             "latexPost": "\\end{document}", 
             "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n", 
-            "name": "Basic", 
+            "name": "Basic-acde9", 
             "req": [
                 [
                     0, 
@@ -171,54 +194,6 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "Hold-out validation", 
-                "Split data into two parts (say 70/30)<div>use one as training and the other as a test set</div>"
-            ], 
-            "flags": 0, 
-            "guid": "gzxVU#$Wq<", 
-            "note_model_uuid": "1abbd8c0-5f61-11e7-9b25-60571891fa41", 
-            "tags": []
-        }, 
-        {
-            "__type__": "Note", 
-            "data": "", 
-            "fields": [
-                "K-fold Crossvalidation", 
-                "Split data into k parts&nbsp;<div>for each k train all other chunks, test with the remaining one<br /></div>"
-            ], 
-            "flags": 0, 
-            "guid": "cRBwI5zjHV", 
-            "note_model_uuid": "1abbd8c0-5f61-11e7-9b25-60571891fa41", 
-            "tags": []
-        }, 
-        {
-            "__type__": "Note", 
-            "data": "", 
-            "fields": [
-                "Leave one out cross validation", 
-                "K-fold where k=n meaning each chunk is one sample<br />"
-            ], 
-            "flags": 0, 
-            "guid": "Pr!L>8GSv(", 
-            "note_model_uuid": "1abbd8c0-5f61-11e7-9b25-60571891fa41", 
-            "tags": []
-        }, 
-        {
-            "__type__": "Note", 
-            "data": "", 
-            "fields": [
-                "Idea of crossvalidation", 
-                "Evaluate models by testing with independent data, find the best parameters"
-            ], 
-            "flags": 0, 
-            "guid": "n)0f~,y@.0", 
-            "note_model_uuid": "1abbd8c0-5f61-11e7-9b25-60571891fa41", 
-            "tags": []
-        }, 
-        {
-            "__type__": "Note", 
-            "data": "", 
-            "fields": [
                 "Machine Learning", 
                 "- algorithms extract patterns from data<div>- learn mathematical model used to make intelligent decisions</div><div>- learning &amp; application phase</div>"
             ], 
@@ -290,7 +265,7 @@
             "data": "", 
             "fields": [
                 "Difference between training &amp; test set", 
-                "- training set is used to compute model<div>- test set is used to evaluate model</div>"
+                "- training set is used to compute model<div>- test set is used to evaluate final model</div>"
             ], 
             "flags": 0, 
             "guid": "bC]KHp5%Pm", 
@@ -303,8 +278,8 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "Learning rate&nbsp;[latex]\\alpha[/latex]", 
-                "- step size when updating parameters<div>- too small: may get stuck in local optima, slow convergence</div><div>- too big: may skip over optima</div>"
+                "Learning rate&nbsp;[$]\\alpha[/$]", 
+                "- step size when updating parameters<div>- too small: may get stuck in local optima, slow convergence</div><div>- too big: may skip over / oscillate around optima</div>"
             ], 
             "flags": 0, 
             "guid": "e%CPQr/CWh", 
@@ -346,7 +321,7 @@
             "data": "", 
             "fields": [
                 "Feature Selection", 
-                "- algorithm to select relevant subset of features available"
+                "- algorithm to select relevant subset of available features"
             ], 
             "flags": 0, 
             "guid": "FldI{(Iwu0", 
@@ -401,8 +376,8 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "Variance", 
-                "- Generalization Error resulting of inaccurate / small training set and/or too complex models<br /><div>- overfitting</div>"
+                "Variance&nbsp;", 
+                "- Generalization Error resulting of inaccurate / small training set and / or too complex models<br /><div>- overfitting</div>"
             ], 
             "flags": 0, 
             "guid": "x~[^{j$}~,", 
@@ -472,7 +447,7 @@
             "data": "", 
             "fields": [
                 "Markov property", 
-                "- property of a stochastic process&nbsp;<div>- future state depends only on present state</div><div>- present state summarizes past states</div>"
+                "- property of a stochastic process&nbsp;<div>- future state depends only on present state</div><div>- present state summarizes past states with reward to future states</div><div>- precondition for using MDP</div>"
             ], 
             "flags": 0, 
             "guid": "zn/w7^d<sN", 
@@ -480,6 +455,258 @@
             "tags": [
                 "concept"
             ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Hold-out validation", 
+                "Split data into two parts (say 70/30)<div>use one as training and the other as a test set</div>"
+            ], 
+            "flags": 0, 
+            "guid": "gzxVU#$Wq<", 
+            "note_model_uuid": "1abbd8c0-5f61-11e7-9b25-60571891fa41", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "K-fold Crossvalidation", 
+                "Split data into k parts&nbsp;<div>for each k train all other chunks, test with the remaining one<br /></div>"
+            ], 
+            "flags": 0, 
+            "guid": "cRBwI5zjHV", 
+            "note_model_uuid": "1abbd8c0-5f61-11e7-9b25-60571891fa41", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Leave one out cross validation", 
+                "K-fold where k=n meaning each chunk is one sample<br />"
+            ], 
+            "flags": 0, 
+            "guid": "Pr!L>8GSv(", 
+            "note_model_uuid": "1abbd8c0-5f61-11e7-9b25-60571891fa41", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Idea of crossvalidation", 
+                "Evaluate models by testing with independent data, find the best parameters"
+            ], 
+            "flags": 0, 
+            "guid": "n)0f~,y@.0", 
+            "note_model_uuid": "1abbd8c0-5f61-11e7-9b25-60571891fa41", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Reward function", 
+                "-&nbsp;reward when going from state&nbsp;[$]s[/$] to state&nbsp;[$]s'[/$] by choosing action&nbsp;[$]a[/$]<div>- Goal is to maximize the expected sum of rewards&nbsp;</div>"
+            ], 
+            "flags": 0, 
+            "guid": "FlE1s=cnDn", 
+            "note_model_uuid": "1abbd8c0-5f61-11e7-9b25-60571891fa41", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Transition function", 
+                "- probability of reaching state [$]s'[/$] from state [$]s[/$] through action [$]a[/$]"
+            ], 
+            "flags": 0, 
+            "guid": "LV$B.#/AB4", 
+            "note_model_uuid": "1abbd8c0-5f61-11e7-9b25-60571891fa41", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Policy function&nbsp;[$]\\pi_t(s,a)[/$]", 
+                "Probability of choosing action&nbsp;[$]a[/$] when in state&nbsp;[$]s[/$] at step&nbsp;[$]t[/$]"
+            ], 
+            "flags": 0, 
+            "guid": "hAfdSA8PL!", 
+            "note_model_uuid": "1abbd8c0-5f61-11e7-9b25-60571891fa41", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "State-value function&nbsp;[$]V^\\pi(s)[/$]", 
+                "<div>the expected sum of discounted rewards upon starting in&nbsp;state [$]s[/$], and taking actions according to π, weighting following states using the transition function [$]P[/$].</div><div><br /></div><div>[$]V^\\pi(s) = R(s) + \\gamma \\sum_{s' \\in S}P_{s\\pi(s)}(s')V^\\pi(s')[/$]</div>"
+            ], 
+            "flags": 0, 
+            "guid": "yW^oj)VXf+", 
+            "note_model_uuid": "1abbd8c0-5f61-11e7-9b25-60571891fa41", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Return&nbsp;[$]R_t[/$]", 
+                "Sum of rewards for all timesteps after&nbsp;[$]t[/$]<div>[$]R_t = r_{t+1} + r_{t+2} + ... + r_T[/$]</div><div>where&nbsp;[$]T[/$] is the final state</div>"
+            ], 
+            "flags": 0, 
+            "guid": "H.5wu6L>1`", 
+            "note_model_uuid": "1abbd8c0-5f61-11e7-9b25-60571891fa41", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Action-value function&nbsp;[$]Q^\\pi[/$]", 
+                "Value of taking action&nbsp;[$]a[/$] in state&nbsp;[$]s[/$] under policy&nbsp;[$]\\pi[/$]:<div>[$]Q^\\pi = E_\\pi [R_t | s_t = s, a_t =a][/$]</div>"
+            ], 
+            "flags": 0, 
+            "guid": "K3KGrqt+@,", 
+            "note_model_uuid": "1abbd8c0-5f61-11e7-9b25-60571891fa41", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "When training an SL model, how do you decide when to stop training?", 
+                "When the error (difference between target and predicted function) is significantly small (meaning, the algorithm converges)"
+            ], 
+            "flags": 0, 
+            "guid": "OQTB$W!qHk", 
+            "note_model_uuid": "1abbd8c0-5f61-11e7-9b25-60571891fa41", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "In SL, what happens when you get a training error&nbsp;[$]\\sigma = 0[/$]?", 
+                "The predicted function matches the target function exactly. May be a hint for overfitting"
+            ], 
+            "flags": 0, 
+            "guid": "nUelPW%X+d", 
+            "note_model_uuid": "1abbd8c0-5f61-11e7-9b25-60571891fa41", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Difference between batch and stochastic gradient descent", 
+                "- Batch gradient descent has to scan the whole example set every run before updating the model, making it more costly<div>- Stochastic gradient descent updates the model for every sample</div>"
+            ], 
+            "flags": 0, 
+            "guid": "ow:X^H5-T:", 
+            "note_model_uuid": "1abbd8c0-5f61-11e7-9b25-60571891fa41", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Why is it useful to reduce dimensions?", 
+                "- 2d and 3d are easier to visualize<div>- better performance</div><div>- feature selection eliminates unneeded / insignificant features</div>"
+            ], 
+            "flags": 0, 
+            "guid": "yY7z5Z}fKM", 
+            "note_model_uuid": "1abbd8c0-5f61-11e7-9b25-60571891fa41", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "In linear regression, How is the parameter vector&nbsp;[$]\\theta[/$] initialized? why?", 
+                "- randomly initialized<div>- because they are modified during the run</div>"
+            ], 
+            "flags": 0, 
+            "guid": "b$]:13`Ws]", 
+            "note_model_uuid": "1abbd8c0-5f61-11e7-9b25-60571891fa41", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "In linear regression, what happens when you add more terms to your model?", 
+                "- may lead to: less bias, more variance<div>- tradeoff</div>"
+            ], 
+            "flags": 0, 
+            "guid": "E}pDl}ZH$L", 
+            "note_model_uuid": "1abbd8c0-5f61-11e7-9b25-60571891fa41", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Difference between regression and logistic regression", 
+                "logistic regression applies regression methods to classification problems"
+            ], 
+            "flags": 0, 
+            "guid": "Ko<>S+>9`V", 
+            "note_model_uuid": "1abbd8c0-5f61-11e7-9b25-60571891fa41", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Shape of the sigmoid function? Why is it used in logistic regression?", 
+                "<img src=\"2017-07-12-163414_430x324_scrot.png\" /><div>- Output values are probabilities and therefore bounded by 0 and 1</div><div>- S-Shape is well suited to separate output into discrete, binary values</div><div>- Easy to derive</div>"
+            ], 
+            "flags": 0, 
+            "guid": "l2UJpSU|G$", 
+            "note_model_uuid": "1abbd8c0-5f61-11e7-9b25-60571891fa41", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "two main steps of k-means algorithm", 
+                "<div>(0. initialize centroids randomly)</div>1. assign each example to its closest centroid<div>2. move centroids by calculating mean value of assigned examples</div>"
+            ], 
+            "flags": 0, 
+            "guid": "g5;cR/d^I9", 
+            "note_model_uuid": "1abbd8c0-5f61-11e7-9b25-60571891fa41", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "How does Principal Component Analysis work?", 
+                "1. Calculate the mean value for every dimension of the example set<div>2. Calculate the covariance matrix</div><div>3. Calculate the eigenvectors and eigenvalues of the covariance matrix</div><div>4. Choose a number of eigenvectors with the largest eigenvalues</div><div>5. Derive the new data set from the chosen eigenvectors and the original data</div>"
+            ], 
+            "flags": 0, 
+            "guid": "E%kU@e]g(a", 
+            "note_model_uuid": "1abbd8c0-5f61-11e7-9b25-60571891fa41", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What are the parameters estimated in the Gaussian Discriminant Analysis?", 
+                "-&nbsp;[$]\\phi[/$], the bernoulli distribution of the class&nbsp;[$]y[/$]<div>-&nbsp;[$]\\mu_1[/$], mean vector of features of examples with class 1</div><div>-&nbsp;[$]\\mu_0[/$], mean vector of features of examples with class 0</div><div>-&nbsp;[$]\\Sigma[/$], the covariance matrix</div>"
+            ], 
+            "flags": 0, 
+            "guid": "D.*:Lvz||l", 
+            "note_model_uuid": "1abbd8c0-5f61-11e7-9b25-60571891fa41", 
+            "tags": []
         }
     ]
 }
