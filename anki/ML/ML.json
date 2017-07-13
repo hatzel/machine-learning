@@ -75,10 +75,12 @@
         "2017-07-12-163414_430x324_scrot.png", 
         "latex-10f32377ac67d94f764f12a15ea987e88c85d3e1.png", 
         "latex-f5f8c57c136c66a683714048b0820ec466bfc35e.png", 
+        "lol.jpg", 
         "latex-2c175f60eecef1de7560c3bdea495d69f26f719d.png", 
         "latex-0ca9e16fa0841d19943387d62102ce20e77bf3bc.png", 
         "latex-2554b6496c3b678897e9b060ef00aa9f0a7d7ece.png", 
-        "latex-7548319dd93c27598143e27cd09522e0c727ef4f.png"
+        "latex-7548319dd93c27598143e27cd09522e0c727ef4f.png", 
+        "paste-562640715779.jpg"
     ], 
     "name": "ML", 
     "note_models": [
@@ -190,6 +192,54 @@
         }
     ], 
     "notes": [
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Hold-out validation", 
+                "Split data into two parts (say 70/30)<div>use one as training and the other as a test set</div>"
+            ], 
+            "flags": 0, 
+            "guid": "gzxVU#$Wq<", 
+            "note_model_uuid": "1abbd8c0-5f61-11e7-9b25-60571891fa41", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "K-fold Crossvalidation", 
+                "Split data into k parts&nbsp;<div>for each k train all other chunks, test with the remaining one<br /></div>"
+            ], 
+            "flags": 0, 
+            "guid": "cRBwI5zjHV", 
+            "note_model_uuid": "1abbd8c0-5f61-11e7-9b25-60571891fa41", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Leave one out cross validation", 
+                "K-fold where k=n meaning each chunk is one sample<br />"
+            ], 
+            "flags": 0, 
+            "guid": "Pr!L>8GSv(", 
+            "note_model_uuid": "1abbd8c0-5f61-11e7-9b25-60571891fa41", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Idea of crossvalidation", 
+                "Evaluate models by testing with independent data, find the best parameters"
+            ], 
+            "flags": 0, 
+            "guid": "n)0f~,y@.0", 
+            "note_model_uuid": "1abbd8c0-5f61-11e7-9b25-60571891fa41", 
+            "tags": []
+        }, 
         {
             "__type__": "Note", 
             "data": "", 
@@ -460,48 +510,36 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "Hold-out validation", 
-                "Split data into two parts (say 70/30)<div>use one as training and the other as a test set</div>"
+                "K-means 2 main steps", 
+                "- Assignment step<div>- Update step</div>"
             ], 
             "flags": 0, 
-            "guid": "gzxVU#$Wq<", 
-            "note_model_uuid": "1abbd8c0-5f61-11e7-9b25-60571891fa41", 
+            "guid": "C{?vtzz`h~", 
+            "note_model_uuid": "09951314-5ca9-11e7-8d85-8c705ab266f4", 
             "tags": []
         }, 
         {
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "K-fold Crossvalidation", 
-                "Split data into k parts&nbsp;<div>for each k train all other chunks, test with the remaining one<br /></div>"
+                "EM Algorithm for Gaussians", 
+                "<img src=\"paste-562640715779.jpg\" />"
             ], 
             "flags": 0, 
-            "guid": "cRBwI5zjHV", 
-            "note_model_uuid": "1abbd8c0-5f61-11e7-9b25-60571891fa41", 
+            "guid": "yaD8]00DG)", 
+            "note_model_uuid": "09951314-5ca9-11e7-8d85-8c705ab266f4", 
             "tags": []
         }, 
         {
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "Leave one out cross validation", 
-                "K-fold where k=n meaning each chunk is one sample<br />"
+                "EM Algorithm Genral", 
+                "<img src=\"lol.jpg\" />"
             ], 
             "flags": 0, 
-            "guid": "Pr!L>8GSv(", 
-            "note_model_uuid": "1abbd8c0-5f61-11e7-9b25-60571891fa41", 
-            "tags": []
-        }, 
-        {
-            "__type__": "Note", 
-            "data": "", 
-            "fields": [
-                "Idea of crossvalidation", 
-                "Evaluate models by testing with independent data, find the best parameters"
-            ], 
-            "flags": 0, 
-            "guid": "n)0f~,y@.0", 
-            "note_model_uuid": "1abbd8c0-5f61-11e7-9b25-60571891fa41", 
+            "guid": "k?<1qq]Jn&", 
+            "note_model_uuid": "09951314-5ca9-11e7-8d85-8c705ab266f4", 
             "tags": []
         }, 
         {
