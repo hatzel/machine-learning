@@ -61,6 +61,7 @@
         "latex-ba8abddc486aa9814b534c192cefe001796e0660.png", 
         "latex-5449911bcd2fc55e691c7445058833b8ac40e1c9.png", 
         "latex-1f073a10f7885cb16cd3e6741a9ac35e6598999c.png", 
+        "latex-f280df55578984869ea2c6ed3d7e004bd15b3de2.png", 
         "latex-092e364e1d9d19ad5fffb0b46ef4cc7f2da02c1c.png", 
         "latex-d5b47333faf1029f1ab66704b16989e29d190643.png", 
         "latex-f37bba504894945c07a32f5496d74299a37aa51c.png", 
@@ -192,54 +193,6 @@
         }
     ], 
     "notes": [
-        {
-            "__type__": "Note", 
-            "data": "", 
-            "fields": [
-                "Hold-out validation", 
-                "Split data into two parts (say 70/30)<div>use one as training and the other as a test set</div>"
-            ], 
-            "flags": 0, 
-            "guid": "gzxVU#$Wq<", 
-            "note_model_uuid": "1abbd8c0-5f61-11e7-9b25-60571891fa41", 
-            "tags": []
-        }, 
-        {
-            "__type__": "Note", 
-            "data": "", 
-            "fields": [
-                "K-fold Crossvalidation", 
-                "Split data into k parts&nbsp;<div>for each k train all other chunks, test with the remaining one<br /></div>"
-            ], 
-            "flags": 0, 
-            "guid": "cRBwI5zjHV", 
-            "note_model_uuid": "1abbd8c0-5f61-11e7-9b25-60571891fa41", 
-            "tags": []
-        }, 
-        {
-            "__type__": "Note", 
-            "data": "", 
-            "fields": [
-                "Leave one out cross validation", 
-                "K-fold where k=n meaning each chunk is one sample<br />"
-            ], 
-            "flags": 0, 
-            "guid": "Pr!L>8GSv(", 
-            "note_model_uuid": "1abbd8c0-5f61-11e7-9b25-60571891fa41", 
-            "tags": []
-        }, 
-        {
-            "__type__": "Note", 
-            "data": "", 
-            "fields": [
-                "Idea of crossvalidation", 
-                "Evaluate models by testing with independent data, find the best parameters"
-            ], 
-            "flags": 0, 
-            "guid": "n)0f~,y@.0", 
-            "note_model_uuid": "1abbd8c0-5f61-11e7-9b25-60571891fa41", 
-            "tags": []
-        }, 
         {
             "__type__": "Note", 
             "data": "", 
@@ -510,36 +463,48 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "K-means 2 main steps", 
-                "- Assignment step<div>- Update step</div>"
+                "Hold-out validation", 
+                "Split data into two parts (say 70/30)<div>use one as training and the other as a test set</div>"
             ], 
             "flags": 0, 
-            "guid": "C{?vtzz`h~", 
-            "note_model_uuid": "09951314-5ca9-11e7-8d85-8c705ab266f4", 
+            "guid": "gzxVU#$Wq<", 
+            "note_model_uuid": "1abbd8c0-5f61-11e7-9b25-60571891fa41", 
             "tags": []
         }, 
         {
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "EM Algorithm for Gaussians", 
-                "<img src=\"paste-562640715779.jpg\" />"
+                "K-fold Crossvalidation", 
+                "Split data into k parts&nbsp;<div>for each k train all other chunks, test with the remaining one<br /></div>"
             ], 
             "flags": 0, 
-            "guid": "yaD8]00DG)", 
-            "note_model_uuid": "09951314-5ca9-11e7-8d85-8c705ab266f4", 
+            "guid": "cRBwI5zjHV", 
+            "note_model_uuid": "1abbd8c0-5f61-11e7-9b25-60571891fa41", 
             "tags": []
         }, 
         {
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "EM Algorithm Genral", 
-                "<img src=\"lol.jpg\" />"
+                "Leave one out cross validation", 
+                "K-fold where k=n meaning each chunk is one sample<br />"
             ], 
             "flags": 0, 
-            "guid": "k?<1qq]Jn&", 
-            "note_model_uuid": "09951314-5ca9-11e7-8d85-8c705ab266f4", 
+            "guid": "Pr!L>8GSv(", 
+            "note_model_uuid": "1abbd8c0-5f61-11e7-9b25-60571891fa41", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Idea of crossvalidation", 
+                "Evaluate models by testing with independent data, find the best parameters"
+            ], 
+            "flags": 0, 
+            "guid": "n)0f~,y@.0", 
+            "note_model_uuid": "1abbd8c0-5f61-11e7-9b25-60571891fa41", 
             "tags": []
         }, 
         {
@@ -743,6 +708,54 @@
             ], 
             "flags": 0, 
             "guid": "D.*:Lvz||l", 
+            "note_model_uuid": "1abbd8c0-5f61-11e7-9b25-60571891fa41", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "K-means 2 main steps", 
+                "- Assignment step<div>- Update step</div>"
+            ], 
+            "flags": 0, 
+            "guid": "C{?vtzz`h~", 
+            "note_model_uuid": "09951314-5ca9-11e7-8d85-8c705ab266f4", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "EM Algorithm for Gaussians", 
+                "<img src=\"paste-562640715779.jpg\" />"
+            ], 
+            "flags": 0, 
+            "guid": "yaD8]00DG)", 
+            "note_model_uuid": "09951314-5ca9-11e7-8d85-8c705ab266f4", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "EM Algorithm General", 
+                "<img src=\"lol.jpg\" />"
+            ], 
+            "flags": 0, 
+            "guid": "k?<1qq]Jn&", 
+            "note_model_uuid": "09951314-5ca9-11e7-8d85-8c705ab266f4", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Why is it useful the distortion function&nbsp;[$]J(c, \\mu)[/$]", 
+                "Can be used as a metric to pick the best out of multiple runs"
+            ], 
+            "flags": 0, 
+            "guid": "Mb6O)yf6ZL", 
             "note_model_uuid": "1abbd8c0-5f61-11e7-9b25-60571891fa41", 
             "tags": []
         }
